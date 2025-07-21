@@ -1,0 +1,69 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.container.title{
+  padding-top: 5%;
+}
+
+.btn-primary{
+  background-color: #f8f9fa;
+  color: black;
+  border: none;
+}
+
+.btn-outline-secondary{
+  border: 1.25px solid #f8f9fa;
+  color: #f8f9fa;
+}
+.dog-testimonial{
+  margin-top: 5px;
+  margin-bottom: 2px;
+  border-radius: 50%;
+  height: 100px;
+}
+
+.price-button-outline {
+  border-color: black;
+  color: black;
+}
+
+.price-button-outline:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.price-button{
+  background-color: black;
+  color: #f8f9fa;
+}
+
+.card-black {
+  border: 1px solid black;
+}
+
+.card-black .card-header {
+  background-color: black;
+  color: white;
+}
